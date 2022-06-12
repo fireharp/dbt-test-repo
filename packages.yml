@@ -3,4 +3,4 @@ packages:
     version: 0.8.5
   - package: dbt-labs/codegen
     version: 0.6.0
-    
+  - local: /Users/fireharp/Documents/Prog/G-Plans/bigquery-automation

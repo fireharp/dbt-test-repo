@@ -6,6 +6,8 @@ models:
     columns:
       - name: id
         description: ""
+      - name: user_id
+        description: ""
 
       - name: password
         description: ""
@@ -196,7 +198,7 @@ models:
       - name: sb_order_uid
         description: ""
 
-      - name: recurly_invoice_uid
+      - name: recurly_invoice_id
         description: ""
 
       - name: sb_order_backend_id

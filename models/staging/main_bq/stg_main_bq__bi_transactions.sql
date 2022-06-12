@@ -7,7 +7,11 @@ with source as (
 , renamed as (
 
     select
+        -- ids
         uid
+        , cast(_user_id as INT64) as user_id
+        , tid
+
         , activated_at
         , affid
         , affsub
@@ -23,7 +27,6 @@ with source as (
         , amount
         , is_purchase
         , is_voided_purchase
-        , tid
 
     from source
 

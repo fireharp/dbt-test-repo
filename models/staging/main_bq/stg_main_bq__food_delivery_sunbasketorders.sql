@@ -8,7 +8,7 @@ with source as (
     select
         -- external ids
         sunbasket_order_id as sb_order_uid
-        , invoice_id as recurly_invoice_uid
+        , safe_cast(invoice_id as INT64) as recurly_invoice_id
 
         -- ids
         , id as sb_order_backend_id

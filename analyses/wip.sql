@@ -10,5 +10,6 @@
 {{ codegen.generate_model_yaml(model_name='stg_main_bq__food_delivery_sunbasketitems') }}
 {{ codegen.generate_model_yaml(model_name='stg_main_bq__food_delivery_sunbasketmenus') }}
 {{ codegen.generate_model_yaml(model_name='stg_main_bq__food_delivery_sunbasketorderitems') }}
-{{ codegen.generate_model_yaml(model_name='stg_main_bq__food_delivery_sunbasketitems') }}
 #}
+
+
