@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: stg_main_bq__users
+  - name: stg_main_bq__accounts
     description: ""
     columns:
       - name: id

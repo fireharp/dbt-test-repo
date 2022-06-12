@@ -9,6 +9,8 @@ dbt-bigquery = "*"
 dbt-postgres = "*"
 
 [dev-packages]
+sqlfluff = "*"
+sqlfluff-templater-dbt = "*"
 
 [requires]
 python_version = "3.8"
