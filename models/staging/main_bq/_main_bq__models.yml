@@ -1,0 +1,329 @@
+version: 2
+
+models:
+  - name: stg_main_bq__users
+    description: ""
+    columns:
+      - name: id
+        description: ""
+
+      - name: password
+        description: ""
+
+      - name: last_login
+        description: ""
+
+      - name: email
+        description: ""
+
+      - name: username
+        description: ""
+
+      - name: first_name
+        description: ""
+
+      - name: last_name
+        description: ""
+
+      - name: is_staff
+        description: ""
+
+      - name: is_active
+        description: ""
+
+      - name: tagline
+        description: ""
+
+      - name: date_joined
+        description: ""
+
+      - name: is_email_verified
+        description: ""
+
+      - name: is_superuser
+        description: ""
+
+      - name: cell_phone
+        description: ""
+
+      - name: gender
+        description: ""
+
+      - name: birthdate
+        description: ""
+
+      - name: age
+        description: ""
+
+      - name: current_weight
+        description: ""
+
+      - name: goal_weight
+        description: ""
+
+      - name: height
+        description: ""
+
+      - name: affid
+        description: ""
+
+      - name: afid
+        description: ""
+
+      - name: aid
+        description: ""
+
+      - name: c1
+        description: ""
+
+      - name: c2
+        description: ""
+
+      - name: c3
+        description: ""
+
+      - name: prospect_id
+        description: ""
+
+      - name: sid
+        description: ""
+
+      - name: ip_address
+        description: ""
+
+      - name: tid
+        description: ""
+
+      - name: uid
+        description: ""
+
+      - name: intercom_id
+        description: ""
+
+      - name: verification_code
+        description: ""
+
+      - name: is_password_changed
+        description: ""
+
+      - name: nutritionist_staff_key
+        description: ""
+
+      - name: setmore_customer_key
+        description: ""
+
+      - name: affsub
+        description: ""
+
+      - name: timezone
+        description: ""
+
+      - name: referrer
+        description: ""
+
+      - name: initial_affid
+        description: ""
+
+      - name: initial_affsub
+        description: ""
+
+      - name: initial_tid
+        description: ""
+
+      - name: created_at
+        description: ""
+
+      - name: updated_at
+        description: ""
+  
+  - name: stg_main_bq__bi_transactions
+    description: ""
+    columns:
+      - name: uid
+        description: ""
+
+      - name: activated_at
+        description: ""
+
+      - name: affid
+        description: ""
+
+      - name: affsub
+        description: ""
+
+      - name: plan
+        description: ""
+
+      - name: country_code
+        description: ""
+
+      - name: subdivision_code
+        description: ""
+
+      - name: has_lean_subscription
+        description: ""
+
+      - name: has_protein_subscription
+        description: ""
+
+      - name: loc
+        description: ""
+
+      - name: offerid
+        description: ""
+
+      - name: revenue_part
+        description: ""
+
+      - name: description
+        description: ""
+
+      - name: amount
+        description: ""
+
+      - name: is_purchase
+        description: ""
+
+      - name: is_voided_purchase
+        description: ""
+
+      - name: tid
+        description: ""
+
+  - name: stg_main_bq__food_delivery_sunbasketorders
+    description: ""
+    columns:
+      - name: sb_order_uid
+        description: ""
+
+      - name: recurly_invoice_uid
+        description: ""
+
+      - name: sb_order_backend_id
+        description: ""
+
+      - name: user_id
+        description: ""
+
+      - name: sb_subscription_backend_id
+        description: ""
+
+      - name: sb_menu_backend_id
+        description: ""
+
+      - name: sb_shipping_adderss_backend_id
+        description: ""
+
+      - name: status
+        description: ""
+
+      - name: shipping_status
+        description: ""
+
+      - name: shipping_price
+        description: ""
+
+      - name: taxes_price
+        description: ""
+
+      - name: total_price
+        description: ""
+
+      - name: is_sunbasket_order_created
+        description: ""
+
+      - name: is_sunbasket_order_cancelled
+        description: ""
+
+      - name: is_usage_sent
+        description: ""
+
+      - name: is_prepaid
+        description: ""
+
+      - name: created_date
+        description: ""
+
+      - name: updated_date
+        description: ""
+
+      - name: delivery_date
+        description: ""
+
+      - name: created_at
+        description: ""
+
+      - name: updated_at
+        description: ""
+  
+  - name: stg_main_bq__food_delivery_sunbasketitems
+    description: ""
+    columns:
+      - name: id
+        description: ""
+
+      - name: created_at
+        description: ""
+
+      - name: updated_at
+        description: ""
+
+      - name: data
+        description: ""
+
+      - name: menu_id
+        description: ""
+
+      - name: recommended
+        description: ""
+
+      - name: image
+        description: ""
+
+  - name: stg_main_bq__food_delivery_sunbasketmenus
+    description: ""
+    columns:
+      - name: id
+        description: ""
+
+      - name: created_at
+        description: ""
+
+      - name: updated_at
+        description: ""
+
+      - name: sunbasket_id
+        description: ""
+
+      - name: deadline
+        description: ""
+
+      - name: shipping_fee
+        description: ""
+
+  - name: stg_main_bq__food_delivery_sunbasketorderitems
+    description: ""
+    columns:
+      - name: id
+        description: ""
+
+      - name: created_at
+        description: ""
+
+      - name: updated_at
+        description: ""
+
+      - name: quantity
+        description: ""
+
+      - name: item_id
+        description: ""
+
+      - name: order_id
+        description: ""
+
+      - name: quantity_added_to_plan
+        description: ""
+
+      - name: sub_type
+        description: ""

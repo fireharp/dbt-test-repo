@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: airflow_dbreplica
+    tables:      
+      - name: food_delivery_sunbasketitem
+      - name: food_delivery_sunbasketmenu
+      - name: food_delivery_sunbasketorder
+      - name: food_delivery_sunbasketorderitem
+      - name: food_delivery_sunbasketordersubscription
+      - name: authentication_account_actual
+  - name: bi_usemoon
+    tables:
+      - name: mv_aov_main_temp
